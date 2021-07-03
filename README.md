@@ -14,5 +14,5 @@ I am using [The Movie Database API](https://www.themoviedb.org/documentation/api
 
 ## Images
 
-![Image of Movie App](https://imgur.com/9894d75a-0256-4338-99b4-2c63f6cc8a18)
+![Image of Movie App](https://i.imgur.com/9s3J6Rh.png)
 
