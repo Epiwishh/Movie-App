@@ -12,3 +12,7 @@ I am developing this app to practice with Flutter. I'm still working on it so th
 
 I am using [The Movie Database API](https://www.themoviedb.org/documentation/api) for this project.
 
+## Images
+
+![Image of Movie App](https://imgur.com/oTU8BAr)
+
