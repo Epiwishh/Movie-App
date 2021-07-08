@@ -44,9 +44,6 @@ class _HomePageState extends State<HomePage> {
       Map<String, dynamic> moviesInTheaterMap = json.decode(response.body);
       moviesInTheaterList = moviesInTheaterMap["results"];
       isMoviesLoading = false;
-      print(moviesInTheaterList);
-    } else {
-      print(response.statusCode);
     }
   }
 
@@ -133,6 +130,7 @@ class _HomePageState extends State<HomePage> {
             isGenresLoading!
                 ? CircularProgressIndicator()
                 : GenresList(
+                    space: 20,
                     width: size.width,
                     genresList: genreList!,
                   ),

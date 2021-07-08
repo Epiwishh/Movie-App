@@ -3,6 +3,7 @@ import 'dart:ui';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:movie_app/models/palette.dart';
+import 'package:movie_app/pages/detailsPage.dart';
 
 class MoviesCarousel extends StatefulWidget {
   final List? moviesList;
@@ -38,17 +39,29 @@ class _MoviesCarouselState extends State<MoviesCarousel> {
       itemBuilder: (context, index, pageViewIndex) {
         return Column(
           children: [
-            Container(
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(40),
-              ),
-              height: 380,
-              child: ClipRRect(
-                borderRadius: BorderRadius.circular(40),
-                child: Image(
-                  fit: BoxFit.fill,
-                  image: NetworkImage(
-                      "https://www.themoviedb.org/t/p/w220_and_h330_face/${widget.moviesList![index]["poster_path"]}"),
+            GestureDetector(
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => DetailsPage(
+                      id: widget.moviesList![index]["id"],
+                    ),
+                  ),
+                );
+              },
+              child: Container(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(40),
+                ),
+                height: 380,
+                child: ClipRRect(
+                  borderRadius: BorderRadius.circular(40),
+                  child: Image(
+                    fit: BoxFit.fill,
+                    image: NetworkImage(
+                        "https://www.themoviedb.org/t/p/w220_and_h330_face/${widget.moviesList![index]["poster_path"]}"),
+                  ),
                 ),
               ),
             ),

@@ -5,9 +5,14 @@ import 'package:movie_app/models/palette.dart';
 class GenresList extends StatelessWidget {
   final List genresList;
   final double width;
+  final double space;
 
-  const GenresList({Key? key, required this.width, required this.genresList})
-      : super(key: key);
+  const GenresList({
+    Key? key,
+    required this.width,
+    required this.genresList,
+    required this.space,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -20,8 +25,8 @@ class GenresList extends StatelessWidget {
         itemBuilder: (context, index) {
           return InkWell(
             child: Container(
-              margin: EdgeInsets.only(left: index == 0 ? 18 : 24),
-              padding: EdgeInsets.only(left: 20, right: 20),
+              margin: EdgeInsets.only(left: index == 0 ? 0 : space),
+              padding: EdgeInsets.only(left: space, right: space),
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(20),
                 border: Border.all(
