@@ -10,8 +10,8 @@ I am developing this app to practice with Flutter. I'm still working on it so th
 
 ## APIs
 
-[The Movie Database API](https://www.themoviedb.org/documentation/api) </br>
-[Country Flags](https://www.countryflags.io/)
+- [The Movie Database API](https://www.themoviedb.org/documentation/api) </br>
+- [Country Flags](https://www.countryflags.io/)
 
 ## Images
 
