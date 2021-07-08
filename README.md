@@ -1,6 +1,6 @@
 # About Movie App
 
-I am developing this app to practice with Flutter. I'm still working on it so this isn't the final version.
+I am developing this app for practice with Flutter. I'm still working on it so this isn't the final version.
 
 ## Flutter Packages Used In This Project
   
