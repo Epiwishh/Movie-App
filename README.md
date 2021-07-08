@@ -8,11 +8,13 @@ I am developing this app to practice with Flutter. I'm still working on it so th
 - [http: ^0.13.3](https://pub.dev/packages/http)
 - [carousel_slider: ^4.0.0](https://pub.dev/packages/carousel_slider)
 
-## API
+## APIs
 
-I am using [The Movie Database API](https://www.themoviedb.org/documentation/api) for this project.
+[The Movie Database API](https://www.themoviedb.org/documentation/api)
+[Country Flags](https://www.countryflags.io/)
 
 ## Images
 
 ![Image of Movie App](https://i.imgur.com/9s3J6Rh.png)
+![Image of Movie App](https://i.imgur.com/zkSEL7k.png)
 
