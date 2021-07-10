@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:movie_app/models/genres.dart';
 import 'package:movie_app/models/palette.dart';
+import 'package:movie_app/pages/moviesList.dart';
 
 class GenresList extends StatelessWidget {
   final List genresList;
@@ -43,6 +43,16 @@ class GenresList extends StatelessWidget {
                 ),
               ),
             ),
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => MoviesList(
+                    genreId: genresList[index]["id"],
+                  ),
+                ),
+              );
+            },
           );
         },
       ),
