@@ -16,5 +16,6 @@ I am developing this app for practice with Flutter. I'm still working on it so t
 ## Images
 
 ![Image of Movie App](https://i.imgur.com/9s3J6Rh.png)
-![Image of Movie App](https://i.imgur.com/zkSEL7k.png)
+![Second Image of Movie App](https://i.imgur.com/zkSEL7k.png)
+![Third Image of Movie App](https://i.imgur.com/UzkedFc.png)
 
