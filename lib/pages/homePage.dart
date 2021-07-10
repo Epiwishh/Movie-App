@@ -1,8 +1,6 @@
 import 'dart:convert';
-
 import 'package:flutter/material.dart';
 import 'package:movie_app/models/categories.dart';
-import 'package:movie_app/models/genres.dart';
 import 'package:movie_app/models/palette.dart';
 import 'package:movie_app/services/tmdbAPI.dart';
 import 'package:movie_app/widgets/genresList.dart';
@@ -59,8 +57,6 @@ class _HomePageState extends State<HomePage> {
 
   @override
   Widget build(BuildContext context) {
-    //// This 'size' variable getting size of device
-    //// For getting width of device you can call [size.width]
     final size = MediaQuery.of(context).size;
 
     return Scaffold(
@@ -129,12 +125,15 @@ class _HomePageState extends State<HomePage> {
             ),
             isGenresLoading!
                 ? CircularProgressIndicator()
-                : GenresList(
-                    space: 20,
-                    width: size.width,
-                    genresList: genreList!,
+                : Container(
+                    margin: EdgeInsets.only(left: 15),
+                    child: GenresList(
+                      space: 20,
+                      width: size.width,
+                      genresList: genreList!,
+                    ),
                   ),
-            SizedBox(height: 50), //// It's just for some space
+            SizedBox(height: 50),
             isMoviesLoading!
                 ? Center()
                 : MoviesCarousel(

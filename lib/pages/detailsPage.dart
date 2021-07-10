@@ -186,7 +186,7 @@ class _DetailsPageState extends State<DetailsPage> {
                           children: [
                             Text(
                               //// [release_date] returns a full date. We just only need year
-                              //// Which is first 4 value of our [release_date] data.
+                              //// Which is first 4 value of our [release_date].
                               movieDetailsMap!["release_date"].substring(0, 4),
                               style: TextStyle(
                                 color: Palette.lightGrey,
