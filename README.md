@@ -1,6 +1,7 @@
 # About Movie App
 
-I am developing this app for practice with Flutter. I'm still working on it so this isn't the final version.
+A movie app I developed for practice with Flutter.
+It simply lists movies by selected categories using an API.
 
 ## Flutter Packages Used In This Project
   
@@ -16,6 +17,6 @@ I am developing this app for practice with Flutter. I'm still working on it so t
 ## Images
 
 ![Image of Movie App](https://i.imgur.com/9s3J6Rh.png)
-![Second Image of Movie App](https://i.imgur.com/zkSEL7k.png)
-![Third Image of Movie App](https://i.imgur.com/UzkedFc.png)
+![Image of Movie App](https://i.imgur.com/zkSEL7k.png)
+![Image of Movie App](https://i.imgur.com/UzkedFc.png)
 
