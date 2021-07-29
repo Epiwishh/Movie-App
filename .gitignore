@@ -33,6 +33,7 @@
 /build/app
 /build/kotlin
 /build/path_provider
+/build/web
 
 # Web related
 lib/generated_plugin_registrant.dart
