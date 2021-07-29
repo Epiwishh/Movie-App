@@ -1,7 +1,12 @@
 # About Movie App
 
-A movie app I developed for practice with Flutter.
-It simply lists movies by selected categories using an API.
+A movie app I developed for practice with Flutter. </br>
+It simply lists movies by selected categories using an API. </br>
+
+# Live Demo
+
+This app for mobile but you can test it with mobile view on your browser. </br>
+[Go Demo](https://nostalgic-booth-ee889e.netlify.app/#/)
 
 ## Flutter Packages Used In This Project
   
