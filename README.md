@@ -5,7 +5,7 @@ It simply lists movies by selected categories using an API. </br>
 
 # Live Demo
 
-This app for mobile but you can test it with mobile view on your browser.
+This app for mobile but you can test it with mobile view on your browser. </br>
 https://nostalgic-booth-ee889e.netlify.app/#/
 
 ## Flutter Packages Used In This Project
