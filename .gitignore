@@ -29,7 +29,10 @@
 .packages
 .pub-cache/
 .pub/
-/build/
+/build/0a3ecb36aad4a1d2c27224dd2971b841
+/build/app
+/build/kotlin
+/build/path_provider
 
 # Web related
 lib/generated_plugin_registrant.dart
